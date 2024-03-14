@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #c1c1c1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #5C4D7D;
+}
+input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background: #b0e3fd;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  background: #009fe9;
+  transition: 1s;
+}
+button:hover {
+  background: #0071fa;
+}
+.content span {
+  color: #0091AD;
+}
+.formulario div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
+.dados {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dados h2 {
+  text-align: center;
+  color: #0091AD;
+  margin-bottom: 20px;
+}
+.dados ul li {
+  list-style: none;
+  text-align: center;
+}
